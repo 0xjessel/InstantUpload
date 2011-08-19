@@ -50,7 +50,8 @@ public class InstantUploadActivity extends Activity {
 	@Override
 	public void onDestroy() {
 		super.onDestroy();
-		this.getApplicationContext().getContentResolver().unregisterContentObserver(instUploadObserver);
+		this.getApplicationContext().getContentResolver()
+				.unregisterContentObserver(instUploadObserver);
 		Log.d("INSTANT", "unregistered content observer");
 	}
 
@@ -86,9 +87,10 @@ public class InstantUploadActivity extends Activity {
 		return media;
 	}
 
-	public class Media {
-		public File file;
-		public String type;
+	private class Media {
+		private File file;
+		@SuppressWarnings("unused")
+		private String type;
 
 		public Media(File file, String type) {
 			this.file = file;

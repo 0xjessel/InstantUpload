@@ -1,0 +1,21 @@
+This is an Android project that is able to detect when a picture is taken and
+then displays the most recent picture's file name in a TextView.  It serves as 
+a demonstration of how one can implement their own instant upload feature. This
+is probably not how Google Plus implemented their Instant Uploads feature on 
+their Google Plus app, but it provides the same functionality.  An added bonus 
+- this works with any camera app, not just the native Camera app.  
+
+One of my hackathon projects at Facebook was implementing an instant uploads 
+feature for their Android Facebook app.  I was able to take pictures on my 
+phone, and in a matter of seconds, it was uploaded to Facebook.  However, it 
+got shot down and I felt like it would be a waste to just let it die like that.
+
+So I decided to write a tutorial on what I built (similar, at least) so that 
+others who are interested can get started right away.  I think it's a really 
+cool feature and would love to see more of this elsewhere!
+
+You can see the tutorial here: 
+http://www.jessechen.net/blog/how-does-google-plus-instant-upload-work/
+
+Visit my website:
+http://www.jessechen.net 
